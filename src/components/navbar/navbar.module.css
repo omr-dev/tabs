@@ -1,0 +1,29 @@
+.navbarContainer{
+    display: flex;
+    color: var(--clr-grey-1);
+    justify-content: center;
+    margin-bottom: 6.4rem;
+}
+.navItem{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 2rem;
+    letter-spacing: var(--letter-spacing) ;
+    margin: 0 0.8rem;
+
+    cursor:pointer;
+    padding: 0.4rem 0;
+    line-height: 1;
+
+
+}
+.navItem.active{
+    color: var(--clr-primary-2);
+    border-bottom: 2px solid var(--clr-primary-2);
+
+}
+.navItem:hover{
+    color: var(--clr-primary-2);
+    border-bottom: 1px solid var(--clr-primary-2);
+    transition: var(--transition);
+}
