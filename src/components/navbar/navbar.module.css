@@ -45,3 +45,9 @@
 
     transition: var(--transition);
 }
+@media (min-width: 992px) {
+    .navItem:hover{
+        box-shadow: -2px 0 var(--clr-primary-2);
+
+    }
+}
