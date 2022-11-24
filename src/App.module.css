@@ -1,0 +1,18 @@
+.App{
+    width: 80vw;
+    margin: 8rem auto;
+}
+@media (min-width: 992px) {
+    .App{
+        width: 95vw;}
+
+.body{
+display: flex;
+    gap: 6.4rem;
+    margin: 0 1.6rem;
+}
+    .navbar{
+        flex-basis:20rem ;
+    }
+
+}
