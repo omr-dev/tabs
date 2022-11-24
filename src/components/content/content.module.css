@@ -7,6 +7,11 @@
     color: var(--clr-grey-1);
 
 }
+@media (min-width: 992px) {
+    .jobTitle{
+        margin-top: 0;
+    }
+}
 
 .name {
     font-size: 1.6rem;
