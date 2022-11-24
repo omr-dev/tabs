@@ -19,11 +19,14 @@
 }
 .navItem.active{
     color: var(--clr-primary-2);
-    border-bottom: 2px solid var(--clr-primary-2);
+    /*border-bottom: 2px solid var(--clr-primary-2);*/
+    box-shadow: 0 2px var(--clr-primary-2);
 
 }
 .navItem:hover{
     color: var(--clr-primary-2);
-    border-bottom: 1px solid var(--clr-primary-2);
+    /*border-bottom: 1px solid var(--clr-primary-2);*/
+    box-shadow: 0 2px var(--clr-primary-2);
+
     transition: var(--transition);
 }
