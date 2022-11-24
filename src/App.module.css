@@ -4,7 +4,8 @@
 }
 @media (min-width: 992px) {
     .App{
-        width: 95vw;}
+        width: 95vw;
+    max-width: 1170px}
 
 .body{
 display: flex;
