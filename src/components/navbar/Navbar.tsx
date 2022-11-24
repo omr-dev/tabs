@@ -1,10 +1,16 @@
 import styles from './navbar.module.css';
-const Navbar = () => {
+type PropsNavbar={
+    tab:string;
+    setTab:(tab:string)=>void;
+    companies:string[];
+}
+const Navbar = ({tab, setTab, companies}:PropsNavbar) => {
     return (
         <div className={styles.navbarContainer}>
-            <button className={styles.navItem+" "+styles.active}>TOMMY</button>
-            <button className={styles.navItem}>BIGDROP</button>
-            <button className={styles.navItem}>CUKER</button>
+            {companies.map((company,key)=>{
+                return <button key={key} className={styles.navItem+" "+(tab===company&&styles.active)} onClick={()=>{setTab(company)}}>{company}</button>
+            })}
+
         </div>
     );
 };
